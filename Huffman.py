@@ -5,6 +5,7 @@
 
 a_list = input()
 
+#count frequency of a character
 frequencies = {}
 for item in a_list:
     if item in frequencies:
@@ -14,5 +15,6 @@ for item in a_list:
 
 print(frequencies)
 
+#Sort the character in order
 for key in sorted(frequencies):
     print(key,frequencies[key])
